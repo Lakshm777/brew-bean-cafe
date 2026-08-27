@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story | Brew & Bean Cafe</title>
+  <meta name="description" content="Discover the story of Brew & Bean Cafe. Born from a winter trek in the Himalayas, we bring the serene calm and rich altitude-grown coffee of India's peaks to Manali.">
+  <!-- Bootstrap 5 CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- FontAwesome Icons for theme and contacts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html" id="brandLogo">
+        <i class="fa-solid fa-mountain-sun me-2 text-success" style="color: var(--deodar-green) !important;"></i>
+        <span>BREW & BEAN</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarTogglerBtn">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navList">
+          <li class="nav-item"><a class="nav-link" href="index.html" id="navHome">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" id="navAbout">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html" id="navMenu">Menu & Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html" id="navGallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" id="navContact">Contact</a></li>
+        </ul>
+        <div class="ms-lg-3">
+          <a href="contact.html" class="btn btn-glacier btn-sm" id="navCtaBtn">Visit Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header" id="aboutHeader">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 fade-in-up">
+          <span class="d-inline-block text-uppercase text-muted letter-spacing-15 mb-2" style="font-size: 0.85rem; letter-spacing: 0.15em;">Behind the Brew</span>
+          <h1 id="aboutTitle">Our Story</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Narrative Section -->
+  <main>
+    <section class="section-padding" id="narrativeSection">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="section-title">
+              <span class="subtitle">Born in the Peaks</span>
+              <h2>A Trek, a Stove, and the Open Sky</h2>
+            </div>
+            <p class="lead" style="color: var(--deodar-green); font-weight: 500;">
+              Brew & Bean was conceived during a winter trek through the pine-laden ridges near Solang Valley, Manali. 
+            </p>
+            <p class="text-muted">
+              Huddled in heavy wool blankets under a makeshift canvas shelter, we brewed a rustic pot of coffee over a tiny camping stove to escape a sudden snowfall. In that profound, snow-muffled silence, we realized that the best coffee isn't just about roasting profiles or extraction ratios—it's about the space and serenity surrounding the cup.
+            </p>
+            <p class="text-muted">
+              We set out to bring that quiet mountain clarity back with us. Brew & Bean is designed to replicate that very refuge: a serene space where the air smells of fresh pine needles, the view opens to majestic peaks, and every sip invites you to pause, breathe, and slow down.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-reveal">
+              <img src="images/about_trek.png" alt="A warm mug of coffee with snow-capped mountains in the background" class="img-fluid" id="narrativeImg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mountain Stewardship Section -->
+    <section class="section-padding bg-white" style="border-top: 1px solid rgba(59, 89, 63, 0.05); border-bottom: 1px solid rgba(59, 89, 63, 0.05);" id="stewardshipSection">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <span class="subtitle">Our Philosophy</span>
+              <h2>Himalayan Stewardship</h2>
+            </div>
+            <p class="text-muted">We believe in respecting the land that inspires us. Our cafe operates under a set of core principles designed to keep the Himalayas clean and support local mountain communities.</p>
+          </div>
+        </div>
+        
+        <div class="row g-4 mt-2">
+          <!-- Pillar 1 -->
+          <div class="col-md-4">
+            <div class="text-center p-4">
+              <div class="d-inline-flex align-items-center justify-content-center bg-light rounded-circle mb-4" style="width: 80px; height: 80px; color: var(--glacier-blue); font-size: 1.8rem; border: 1px solid rgba(59, 89, 63, 0.08);">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <h3 class="h4">Ethical Micro-lots</h3>
+              <p class="text-muted small">We source our single-origin beans directly from organic shade-grown estates in Chikmagalur and the Nilgiri hills. By paying above-market premium prices, we ensure sustainable farming livelihoods.</p>
+            </div>
+          </div>
+          
+          <!-- Pillar 2 -->
+          <div class="col-md-4">
+            <div class="text-center p-4">
+              <div class="d-inline-flex align-items-center justify-content-center bg-light rounded-circle mb-4" style="width: 80px; height: 80px; color: var(--glacier-blue); font-size: 1.8rem; border: 1px solid rgba(59, 89, 63, 0.08);">
+                <i class="fa-solid fa-droplet"></i>
+              </div>
+              <h3 class="h4">Glacier Pure Water</h3>
+              <p class="text-muted small">The secret to our smooth espresso is local mountain water. We utilize an advanced eco-filtration system that purifies local stream water without wasting vital minerals or discharging chemical waste.</p>
+            </div>
+          </div>
+          
+          <!-- Pillar 3 -->
+          <div class="col-md-4">
+            <div class="text-center p-4">
+              <div class="d-inline-flex align-items-center justify-content-center bg-light rounded-circle mb-4" style="width: 80px; height: 80px; color: var(--glacier-blue); font-size: 1.8rem; border: 1px solid rgba(59, 89, 63, 0.08);">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+              </div>
+              <h3 class="h4">Mountain Support</h3>
+              <p class="text-muted small">A portion of every purchase goes directly into sponsoring waste cleanup drives along the trekking routes of Himachal Pradesh, keeping our valleys as clean as they were meant to be.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-custom" id="mainFooter">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="mb-4">
+            <a class="d-flex align-items-center text-white mb-3" href="index.html" id="footerBrandLogo" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 1.3rem; letter-spacing: 1px;">
+              <i class="fa-solid fa-mountain-sun me-2" style="color: var(--morning-mist);"></i>
+              <span>BREW & BEAN</span>
+            </a>
+            <p class="text-white-50 small pe-lg-4">Born from a trek in the Himalayas, bringing the pristine calm and freshness of the pine-covered valleys to your daily cup.</p>
+          </div>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white-50" aria-label="Facebook" id="footerFbLink"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="text-white-50" aria-label="Instagram" id="footerInstaLink"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="text-white-50" aria-label="Twitter" id="footerTwitterLink"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html" id="footerLinkHome">Home</a></li>
+            <li><a href="about.html" id="footerLinkAbout">About Us</a></li>
+            <li><a href="menu.html" id="footerLinkMenu">Menu & Services</a></li>
+            <li><a href="gallery.html" id="footerLinkGallery">Gallery</a></li>
+            <li><a href="contact.html" id="footerLinkContact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Hours</h5>
+          <p class="text-white-50 mb-1 small">Monday – Sunday</p>
+          <p class="text-white-50 mb-4 small">7:00 AM – 6:00 PM</p>
+          <h5>Location</h5>
+          <p class="text-white-50 small mb-0">Riverside Road, Near Beas River,<br>Manali, Himachal Pradesh, India</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Newsletter</h5>
+          <p class="text-white-50 small mb-3">Subscribe to get mountain news and seasonal menu updates.</p>
+          <form class="d-flex gap-2" id="newsletterForm" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+            <input type="email" class="form-control form-control-sm form-control-custom text-white" placeholder="Your Email" aria-label="Email Address" required id="newsletterEmailInput" style="background-color: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.15);">
+            <button class="btn btn-glacier btn-sm py-2 px-3" type="submit" id="newsletterSubmitBtn"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom text-center text-white-50">
+        <p class="mb-0">&copy; 2026 Brew & Bean Cafe. Inspired by the Himalayas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper JS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

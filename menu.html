@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu & Services | Brew & Bean Cafe</title>
+  <meta name="description" content="Explore the Brew & Bean menu. High-altitude Arabica coffees, Glacier Cold Brew, woodfire sourdough sandwiches, and ceremonial matcha served fresh in Manali.">
+  <!-- Bootstrap 5 CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- FontAwesome Icons for theme and contacts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html" id="brandLogo">
+        <i class="fa-solid fa-mountain-sun me-2 text-success" style="color: var(--deodar-green) !important;"></i>
+        <span>BREW & BEAN</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarTogglerBtn">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navList">
+          <li class="nav-item"><a class="nav-link" href="index.html" id="navHome">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" id="navAbout">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html" id="navMenu">Menu & Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html" id="navGallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" id="navContact">Contact</a></li>
+        </ul>
+        <div class="ms-lg-3">
+          <a href="contact.html" class="btn btn-glacier btn-sm" id="navCtaBtn">Visit Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header" id="menuHeader">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 fade-in-up">
+          <span class="d-inline-block text-uppercase text-muted letter-spacing-15 mb-2" style="font-size: 0.85rem; letter-spacing: 0.15em;">Slow Sips & Fresh Ferments</span>
+          <h1 id="menuTitle">Menu & Services</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <main>
+    <section class="section-padding" id="menuContentSection">
+      <div class="container">
+        
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-7">
+            <p class="text-muted">Every item on our menu is prepared with locally sourced mountain ingredients, mineral-rich stream water, and slow-fermenting artisanal methods. Clean, serene, and deeply nourishing.</p>
+          </div>
+        </div>
+
+        <div class="row g-5">
+          <!-- Column 1: Beverages -->
+          <div class="col-lg-6">
+            <h2 class="menu-category-title" id="beveragesCategoryTitle">
+              <i class="fa-solid fa-mug-hot me-2 text-muted" style="font-size: 1.2rem;"></i>Signature Brews
+            </h2>
+            
+            <!-- Item 1 -->
+            <div class="menu-item-row" id="menuItem1">
+              <div class="menu-item-title">
+                <span>High Altitude Arabica</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹160</span>
+              </div>
+              <div class="menu-item-desc">Single-origin light roast beans grown at 4,500ft in Chikmagalur. Brewed cleanly as a pour-over with notes of local pine-honey and orange zest.</div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="menu-item-row" id="menuItem2">
+              <div class="menu-item-title">
+                <span>Vanilla Bean Latte</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹240</span>
+              </div>
+              <div class="menu-item-desc">A double shot of espresso paired with creamy organic milk, infused with genuine scraped vanilla beans and a touch of raw cane sugar.</div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="menu-item-row" id="menuItem3">
+              <div class="menu-item-title">
+                <span>Glacier Cold Brew</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹220</span>
+              </div>
+              <div class="menu-item-desc">Slow-steeped for 18 hours in cold spring water, offering a velvety-smooth cup with natural sweetness and notes of roasted cocoa.</div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="menu-item-row" id="menuItem4">
+              <div class="menu-item-title">
+                <span>Ceremonial Matcha Latte</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹260</span>
+              </div>
+              <div class="menu-item-desc">Authentic Japanese stone-ground matcha, whisked to a jade lather and poured over hot or iced plant-based milk of your choice.</div>
+            </div>
+
+            <!-- Item 5 (Bonus item for realistic variety) -->
+            <div class="menu-item-row" id="menuItem5">
+              <div class="menu-item-title">
+                <span>Himalayan Forest Honey Tea</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹140</span>
+              </div>
+              <div class="menu-item-desc">Infusion of local wild rosehips, spearmint, and chamomile, sweetened with hand-harvested wild mountain forest honey.</div>
+            </div>
+          </div>
+
+          <!-- Column 2: Eateries -->
+          <div class="col-lg-6">
+            <h2 class="menu-category-title" id="eateriesCategoryTitle">
+              <i class="fa-solid fa-wheat-awn me-2 text-muted" style="font-size: 1.2rem;"></i>Alpine Eatery
+            </h2>
+
+            <!-- Item 6 -->
+            <div class="menu-item-row" id="menuItem6">
+              <div class="menu-item-title">
+                <span>Rustic Woodfire Croissant</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹180</span>
+              </div>
+              <div class="menu-item-desc">Golden flaky pastry layered with organic grass-fed butter, baked to crispy perfection in our stone woodfire hearth.</div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="menu-item-row" id="menuItem7">
+              <div class="menu-item-title">
+                <span>Grilled Pesto Paneer Sourdough</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹280</span>
+              </div>
+              <div class="menu-item-desc">Our signature 24-hour fermented house sourdough, grilled with cubes of soft organic paneer, house-made wild basil pesto, and fresh local greens.</div>
+            </div>
+
+            <!-- Item 8 (Bonus item for realistic variety) -->
+            <div class="menu-item-row" id="menuItem8">
+              <div class="menu-item-title">
+                <span>River Pebble Chocolate Cookie</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹120</span>
+              </div>
+              <div class="menu-item-desc">Soft-baked double dark chocolate chunk cookie, finished with coarse flakes of Himalayan pink rock salt.</div>
+            </div>
+
+            <!-- Item 9 (Bonus item for realistic variety) -->
+            <div class="menu-item-row" id="menuItem9">
+              <div class="menu-item-title">
+                <span>Glacier Berry Chia Parfait</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">₹190</span>
+              </div>
+              <div class="menu-item-desc">Organic Greek yogurt layered with high-altitude honey, chia seeds, and a fresh compote of wild mountain raspberries and blackberries.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Roastery Info Section -->
+    <section class="section-padding bg-white" style="border-top: 1px solid rgba(59, 89, 63, 0.05); border-bottom: 1px solid rgba(59, 89, 63, 0.05);" id="servicesSection">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="image-reveal">
+              <img src="images/gallery_cozy.png" alt="Steaming cup of coffee inside a rustic modern mountain cafe" class="img-fluid" id="servicesImg">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="section-title">
+              <span class="subtitle">Cafe & Roastery Services</span>
+              <h2>More Than Just A Coffee Shop</h2>
+            </div>
+            <p class="text-muted">In addition to our daily menu, we offer a selection of dedicated services designed to celebrate local mountain coffee culture and support quiet workspaces:</p>
+            
+            <div class="d-flex align-items-start mb-4">
+              <div class="me-3 mt-1" style="color: var(--glacier-blue); font-size: 1.25rem;"><i class="fa-solid fa-mug-saucer"></i></div>
+              <div>
+                <h4 class="h5 mb-1">High-Altitude Coffee Tastings</h4>
+                <p class="text-muted small mb-0">Join our roaster every Saturday afternoon at 3:00 PM for an intimate guided journey through single-origin Indian coffees. Learn about altitude effects and clean pour-over techniques.</p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-start mb-4">
+              <div class="me-3 mt-1" style="color: var(--glacier-blue); font-size: 1.25rem;"><i class="fa-solid fa-wifi"></i></div>
+              <div>
+                <h4 class="h5 mb-1">Quiet Workspace Desks</h4>
+                <p class="text-muted small mb-0">Need a quiet space to write, think, or code? Our upper floor features silent desks equipped with high-speed fiber internet, charging hubs, and panoramic windows facing the Beas river.</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start">
+              <div class="me-3 mt-1" style="color: var(--glacier-blue); font-size: 1.25rem;"><i class="fa-solid fa-gift"></i></div>
+              <div>
+                <h4 class="h5 mb-1">Whole Bean Retail & Merch</h4>
+                <p class="text-muted small mb-0">Take the mountain peace home with you. We sell fresh roasted beans in sealed eco-pouches, along with handcrafted ceramic mugs made by local Himachali potters.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-custom" id="mainFooter">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="mb-4">
+            <a class="d-flex align-items-center text-white mb-3" href="index.html" id="footerBrandLogo" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 1.3rem; letter-spacing: 1px;">
+              <i class="fa-solid fa-mountain-sun me-2" style="color: var(--morning-mist);"></i>
+              <span>BREW & BEAN</span>
+            </a>
+            <p class="text-white-50 small pe-lg-4">Born from a trek in the Himalayas, bringing the pristine calm and freshness of the pine-covered valleys to your daily cup.</p>
+          </div>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white-50" aria-label="Facebook" id="footerFbLink"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="text-white-50" aria-label="Instagram" id="footerInstaLink"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="text-white-50" aria-label="Twitter" id="footerTwitterLink"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html" id="footerLinkHome">Home</a></li>
+            <li><a href="about.html" id="footerLinkAbout">About Us</a></li>
+            <li><a href="menu.html" id="footerLinkMenu">Menu & Services</a></li>
+            <li><a href="gallery.html" id="footerLinkGallery">Gallery</a></li>
+            <li><a href="contact.html" id="footerLinkContact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Hours</h5>
+          <p class="text-white-50 mb-1 small">Monday – Sunday</p>
+          <p class="text-white-50 mb-4 small">7:00 AM – 6:00 PM</p>
+          <h5>Location</h5>
+          <p class="text-white-50 small mb-0">Riverside Road, Near Beas River,<br>Manali, Himachal Pradesh, India</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Newsletter</h5>
+          <p class="text-white-50 small mb-3">Subscribe to get mountain news and seasonal menu updates.</p>
+          <form class="d-flex gap-2" id="newsletterForm" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+            <input type="email" class="form-control form-control-sm form-control-custom text-white" placeholder="Your Email" aria-label="Email Address" required id="newsletterEmailInput" style="background-color: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.15);">
+            <button class="btn btn-glacier btn-sm py-2 px-3" type="submit" id="newsletterSubmitBtn"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom text-center text-white-50">
+        <p class="mb-0">&copy; 2026 Brew & Bean Cafe. Inspired by the Himalayas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper JS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
