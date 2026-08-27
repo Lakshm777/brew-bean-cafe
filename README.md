@@ -26,6 +26,4 @@ This is a pilot project created to practice website development, Git, GitHub, an
 
 https://lakshm777.github.io/brew-bean-cafe/
 
-## Status
 
-Completed — Pilot Project #1
